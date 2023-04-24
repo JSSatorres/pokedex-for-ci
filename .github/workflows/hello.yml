@@ -12,4 +12,7 @@ jobs:
     steps: 
       - name: Echo the message
         run: echo "the message"
+      - name: dime la fecha
+        run: date
+      - run: ls -l
    
